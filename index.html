@@ -6,12 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="/dark-mode.js"></script>
 </head>
 <body class="bg-light">
  
 
  <!-- navbar start -->
- <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+ <nav class="navbar navbar-dark fixed-top bg-light shadow-sm">
+    <!-- Inside the <body> section -->
+    <div class="dark-mode-toggle">
+      <button class="btn btn-secondary btn-danger px-3" id="darkModeToggleBtn">
+        Toggle Dark Mode
+      </button>
+    </div>
+    <!-- ... -->
+  </nav>
+  
    <div class="container-lg">
      <a class="navbar-brand text-danger fw-bold fs-4" href="#">MyPortfolio</a>
      <div class="dropdown">

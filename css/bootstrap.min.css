@@ -2446,7 +2446,7 @@ textarea.form-control-lg {
     line-height: 1.5;
     color: #212529;
     vertical-align: middle;
-    background-color: #fff;
+    background-color: rgb(239, 239, 239);
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: right .75rem center;
@@ -11561,6 +11561,19 @@ fieldset:disabled .btn {
     .d-print-none {
         display: none !important
     }
+    /* dark-mode.css */
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .navbar.dark-mode {
+    background-color: #333333;
+  }
+  
+  /* Add dark mode styles for other elements as needed */
+  
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
